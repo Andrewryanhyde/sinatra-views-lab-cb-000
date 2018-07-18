@@ -1,2 +1,2 @@
-<% Today = DateTime.now.date %>
-<%= "The date is #{Today}" %>
+<% t = Time.now %>
+<%= "The date is #{t.strftime("%A")} ,#{t.strftime("%B")} #{t.strftime("%d")}, #{t.strftime("%Y")} %>
